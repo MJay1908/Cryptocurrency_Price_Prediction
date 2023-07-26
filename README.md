@@ -22,3 +22,14 @@ frequencies using machine learning techniques, we first classify Bitcoin price b
 Statistical methods including Logistic Regression and Linear Discriminant Analysis for Bitcoin daily price prediction with highdimensional features achieve an accuracy of 66%, outperforming more complicated machine learning algorithms. Compared with benchmark
 results for daily price prediction, we achieve a better performance, with the highest accuracies of the statistical methods and machine learning algorithms of 66% and 65.3%, respectively. Machine learning models including Long Short-term Memory(LSTM) and Gated Recurrent Unit (GRU) for Bitcoin price prediction are superior to statistical methods, with accuracy reaching 99%. Our investigation of Bitcoin price prediction can be considered a pilot study of the importance of the sample dimension in machine learning techniques.
 
+# System Requirements
+1. Python version >= 3.9.12 + (Jupyter Notebook/Jupyter Lab)
+2. Numpy
+3. Pandas
+4. Keras
+5. Tensorflow
+6. Matplotlib
+7. Sci-Kit Learn
+8. Scipy
+9. Datetime
+10. Plotly

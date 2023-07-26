@@ -15,3 +15,10 @@ http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 The dataset we are using is available here: Bitcoin Historical Data -
 https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
+
+After the boom and bust of cryptocurrencies’ prices in recent years, Bitcoin has been increasingly regarded as an investment asset. Because of its highly volatile nature, there is a need for good predictions on which to base investment decisions. Although existing studies have leveraged machine learning for more accurate Bitcoin price prediction, few have focused on the feasibility of applying different modeling techniques to samples with different data structures and dimensional features. To predict Bitcoin price at different
+frequencies using machine learning techniques, we first classify Bitcoin price by daily price, high-frequency price, highest price, lowest price, average price, opening price, closing price and rate of fluctuation in price.
+
+Statistical methods including Logistic Regression and Linear Discriminant Analysis for Bitcoin daily price prediction with highdimensional features achieve an accuracy of 66%, outperforming more complicated machine learning algorithms. Compared with benchmark
+results for daily price prediction, we achieve a better performance, with the highest accuracies of the statistical methods and machine learning algorithms of 66% and 65.3%, respectively. Machine learning models including Long Short-term Memory(LSTM) and Gated Recurrent Unit (GRU) for Bitcoin price prediction are superior to statistical methods, with accuracy reaching 99%. Our investigation of Bitcoin price prediction can be considered a pilot study of the importance of the sample dimension in machine learning techniques.
+
